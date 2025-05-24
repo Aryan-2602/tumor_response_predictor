@@ -1,0 +1,31 @@
+# requirements.txt
+
+# Core
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Deep Learning
+tensorflow>=2.11
+keras
+opencv-python
+torchvision
+torchaudio
+torch 
+
+
+# Medical image processing
+pydicom
+scikit-image
+
+#data
+kagglehub
+
+# Visualization and Explainability
+seaborn
+plotly
+grad-cam
+
+# App
+streamlit
