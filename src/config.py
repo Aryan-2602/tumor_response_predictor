@@ -16,5 +16,6 @@ EPOCHS = 10
 LEARNING_RATE = 1e-4
 
 # Set these after verifying kagglehub download
-RAW_DATA_PATH = "/Users/aryanmaheshwari/.cache/kagglehub/datasets/paultimothymooney/breast-histopathology-images/versions/1"
+RAW_DATA_PATH = os.path.join(DATA_DIR, "breast_histopathology_images")
+
 
