@@ -14,8 +14,7 @@ num_epochs = 50
 lr = 0.0002
 beta1 = 0.5
 save_dir = "generated"
-device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
-
+device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 os.makedirs(save_dir, exist_ok=True)
 
 def weights_init(m):
